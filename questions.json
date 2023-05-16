@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "question": "What is the capital of France?",
+        "answers": [
+            { "answer": "Paris", "isTrue": true },
+            { "answer": "London", "isTrue": false },
+            { "answer": "Berlin", "isTrue": false },
+            { "answer": "Rome", "isTrue": false }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Which is the longest river in the world?",
+        "answers": [
+            { "answer": "Nile", "isTrue": true },
+            { "answer": "Amazon", "isTrue": false },
+            { "answer": "Mississippi", "isTrue": false },
+            { "answer": "Yangtze", "isTrue": false }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Who painted the Mona Lisa?",
+        "answers": [
+            { "answer": "Leonardo da Vinci", "isTrue": true },
+            { "answer": "Pablo Picasso", "isTrue": false },
+            { "answer": "Vincent van Gogh", "isTrue": false },
+            { "answer": "Michelangelo", "isTrue": false }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Which planet is known as the Red Planet?",
+        "answers": [
+            { "answer": "Mars", "isTrue": true },
+            { "answer": "Venus", "isTrue": false },
+            { "answer": "Jupiter", "isTrue": false },
+            { "answer": "Mercury", "isTrue": false }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "What is the chemical symbol for gold?",
+        "answers": [
+            { "answer": "Au", "isTrue": true },
+            { "answer": "Ag", "isTrue": false },
+            { "answer": "Fe", "isTrue": false },
+            { "answer": "Cu", "isTrue": false }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Which country is known for its famous pyramids?",
+        "answers": [
+            { "answer": "Egypt", "isTrue": true },
+            { "answer": "Greece", "isTrue": false },
+            { "answer": "China", "isTrue": false },
+            { "answer": "Mexico", "isTrue": false }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "answers": [
+            { "answer": "William Shakespeare", "isTrue": true },
+            { "answer": "George Orwell", "isTrue": false },
+            { "answer": "Charles Dickens", "isTrue": false },
+            { "answer": "Jane Austen", "isTrue": false }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Which is the largest ocean on Earth?",
+        "answers": [
+            { "answer": "Pacific Ocean", "isTrue": true },
+            { "answer": "Atlantic Ocean", "isTrue": false },
+            { "answer": "Indian Ocean", "isTrue": false },
+            { "answer": "Arctic Ocean", "isTrue": false }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Who was the first person to step on the moon?",
+        "answers": [
+            { "answer": "Neil Armstrong", "isTrue": true },
+            { "answer": "Buzz Aldrin", "isTrue": false },
+            { "answer": "Yuri Gagarin", "isTrue": false },
+            { "answer": "Alan Shepard", "isTrue": false }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Which animal is known as the 'king of the jungle'?",
+        "answers": [
+            { "answer": "Lion", "isTrue": true },
+            { "answer": "Tiger", "isTrue": false },
+            { "answer": "Elephant", "isTrue": false },
+            { "answer": "Giraffe", "isTrue": false }
+        ]
+    },
+    {
+        "id": 11,
+        "question": "Which is the largest planet in our solar system?",
+        "answers": [
+            { "answer": "Jupiter", "isTrue": true },
+            { "answer": "Saturn", "isTrue": false },
+            { "answer": "Mars", "isTrue": false },
+            { "answer": "Neptune", "isTrue": false }
+        ]
+    },
+    {
+        "id": 12,
+        "question": "Which is the largest desert in the world?",
+        "answers": [
+            { "answer": "Sahara Desert", "isTrue": true },
+            { "answer": "Gobi Desert", "isTrue": false },
+            { "answer": "Arabian Desert", "isTrue": false },
+            { "answer": "Atacama Desert", "isTrue": false }
+        ]
+    },
+    {
+        "id": 13,
+        "question": "Which is the largest land animal?",
+        "answers": [
+            { "answer": "African Elephant", "isTrue": true },
+            { "answer": "Polar Bear", "isTrue": false },
+            { "answer": "Giraffe", "isTrue": false },
+            { "answer": "Hippopotamus", "isTrue": false }
+        ]
+    },
+    {
+        "id": 14,
+        "question": "Which is the largest waterfall in the world?",
+        "answers": [
+            { "answer": "Angel Falls", "isTrue": true },
+            { "answer": "Niagara Falls", "isTrue": false },
+            { "answer": "Victoria Falls", "isTrue": false },
+            { "answer": "Iguazu Falls", "isTrue": false }
+        ]
+    },
+    {
+        "id": 15,
+        "question": "Which is the tallest mountain in the world?",
+        "answers": [
+            { "answer": "Mount Everest", "isTrue": true },
+            { "answer": "K2", "isTrue": false },
+            { "answer": "Kangchenjunga", "isTrue": false },
+            { "answer": "Makalu", "isTrue": false }
+        ]
+    }
+]
