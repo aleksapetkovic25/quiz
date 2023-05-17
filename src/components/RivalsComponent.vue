@@ -1,5 +1,5 @@
 <template>
-    <div class="rivals" :class="{hide: selectedRival, 'rotate-out': rotateRivals}">
+    <div class="wrapper rivals" :class="{hide: selectedRival, 'rotate-out': rotateRivals}">
         <div class="rival" v-for="(rival, index) in rivals" :key="index" @click="selectRival(rival)">
             <img :src="'/src/assets/' + rival.img" alt="avatar">
             <div class="overlay">

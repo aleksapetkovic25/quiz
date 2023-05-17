@@ -1,5 +1,5 @@
 <template>
-    <div class="levels" :class="{show: showLevels && !selectedLevel, 'rotate-in': showLevels}">
+    <div class="levels wrapper" :class="{show: showLevels && !selectedLevel, 'rotate-in': showLevels}">
         <div class="level" v-for="lvl in levels" :key="lvl.id" @click="selectLevel(lvl)">
             <img :src="'/src/assets/' + lvl.img" alt="level-icon">
             <div class="overlay">

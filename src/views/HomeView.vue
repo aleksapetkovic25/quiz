@@ -1,9 +1,8 @@
 <template>
   <main>
-    <GameInfoComponent v-if="levelSelected && rivalSelected" :level="levelSelected" :rival="rivalSelected"/>
     <RivalsComponent @selectedRival="selectedRival" :rivals="rivals"/>
     <LevelsComponent @selectedLevel="selectedLevel" :rival="rivalSelected"/>
-    <QuizGameComponent v-if="levelSelected && rivalSelected"/>
+    <QuizGameComponent v-if="levelSelected && rivalSelected" :level="levelSelected" :rival="rivalSelected"/>
   </main>
 </template>
 
@@ -13,11 +12,10 @@
 <script>
 import RivalsComponent from '../components/RivalsComponent.vue'
 import LevelsComponent from '../components/LevelsComponent.vue'
-import GameInfoComponent from '../components/GameInfoComponent.vue'
 import QuizGameComponent from '../components/QuizGameComponent.vue'
 
 export default {
-  components: { RivalsComponent, LevelsComponent, GameInfoComponent, QuizGameComponent},
+  components: { RivalsComponent, LevelsComponent, QuizGameComponent},
   data(){
     return{
       rivals: [
@@ -51,8 +49,9 @@ export default {
 
 
 <style lang="scss" scoped>
-.test{
-  max-height: 150px;
-  color: white;
+main{
+  display: flex;
+  align-items: center; /* vertically center */
+  height: 100vh;
 }
 </style>
