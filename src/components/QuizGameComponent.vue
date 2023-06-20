@@ -153,6 +153,7 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
  
     .game-container{
     
@@ -191,6 +192,38 @@ export default {
                     background: red;
                 }
             }
+        }
+    }
+
+    @media screen and (max-width: 1000px){
+        
+        display: block;
+
+        .game-container{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    @media screen and (max-width: 800px){
+
+        .game-container{
+            width: 100%;
+            margin: 0 auto;
+
+            .question-container{
+                margin-bottom: 30px;
+            }
+
+            .answers-contaier{
+                display: block;
+        
+                .answer{
+                    width: 100%;
+                }
+            }
+
+            
         }
     }
 }

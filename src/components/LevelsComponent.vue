@@ -113,5 +113,45 @@ $borderRadius: 20px;
 
         }
     }
+
+    @media screen and (max-width: 1350px){
+        .level{
+
+            .overlay{
+    
+                p{
+                    transform: translateY(70px);
+                }
+    
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        
+        &.show{
+            display: block;
+        }
+
+        .level{
+            width: 80%;
+            margin: 30px auto;
+
+            .overlay{
+    
+                p{
+                    transform: translateY(50px);
+                }
+    
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px){
+       
+        .level{
+            margin: 80px auto;
+        }
+    }
 }
 </style>

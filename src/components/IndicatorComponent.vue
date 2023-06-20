@@ -90,7 +90,8 @@ export default {
 
 <style lang="scss" scoped>
 $stepHeight: 30px;
-$stepWidth: 250px;
+$stepWidth: 200px;
+
 
 .indicator-container{
     box-sizing: content-box;
@@ -131,6 +132,18 @@ $stepWidth: 250px;
         &.rest{
             background-color: #033bf2;
         }
+    }
+
+
+    @media screen and (max-width: 1000px){
+        margin: 20px auto;
+        // transform: rotate(-90deg);
+        // margin: 20px auto;
+        // max-width: 100%;
+        
+        // img{
+        //     transform: rotate(90deg);
+        // }
     }
 }
 </style>
