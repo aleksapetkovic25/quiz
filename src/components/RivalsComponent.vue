@@ -56,6 +56,7 @@ $borderRadius: 20px;
         border-radius: $borderRadius;
         box-shadow: 0px 0px 8px 1px rgba(71,71,71,0.93);
         background-color: rgb(39, 39, 39);
+        
 
         .overlay{
             position: absolute;
@@ -84,6 +85,36 @@ $borderRadius: 20px;
                 }
             }
 
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        display: block;
+
+        .rival{
+            width: 80%;
+            height: 300px;
+            max-height: 100%;
+            margin: 20px auto;
+            text-align: center;
+
+            img{
+                max-height: 100%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 400px){
+        .rival{
+            width: 80%;
+            height: auto;
+            max-height: 300px;
+            margin: 20px auto;
+            text-align: center;
+
+            img{
+                max-height: 100%;
+            }
         }
     }
 }

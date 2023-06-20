@@ -10,7 +10,7 @@
                     {{question.question}}
                 </div>
                 <div class="answers-contaier">
-                    <div class="answer" v-for="(answer, index) in question.answers" :key="index" @click="checkAnswer($event, answer)">
+                    <div class="answer" v-for="(answer, index) in question.answers" :data-answer="answer.isTrue" :key="index" @click="checkAnswer($event, answer)">
                         {{ abcd(index) + answer.answer}}
                     </div>
                 </div>
@@ -32,7 +32,8 @@ export default {
             questions: [],
             question: null,
             click: false,
-            message: null
+            message: null,
+            rivalAnswerView: false
         }
     },
     created(){
@@ -86,6 +87,18 @@ export default {
                 e.target.classList.add('true');
                 this.$refs.indicator.checkGame(true)
             }else{
+                let answers = document.getElementsByClassName('answer');
+                for(let i = 0; i < answers.length; i++){
+                    let answer = answers[i];
+                    
+                    if(answer.getAttribute('data-answer') == 'true'){
+                        answer.classList.add('true');
+
+                        setTimeout(() => {
+                           answer.classList.remove('true', 'false');
+                        }, 1000);
+                    }
+                }
                 e.target.classList.add('false');
                 this.$refs.indicator.checkGame(false)
             }
@@ -103,7 +116,6 @@ export default {
         playAgain(){
             location.reload()
         }
-        
     }
 }
 </script>
@@ -166,7 +178,11 @@ export default {
                 margin: 10px 0;
                 padding: 10px;
                 cursor: pointer;
-    
+
+                &.blue{
+                    background: rgb(0, 153, 255);
+                }
+
                 &.true{
                     background: rgb(16, 158, 16);
                 }
